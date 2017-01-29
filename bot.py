@@ -68,6 +68,7 @@ def check_answer(message):
         if message.text == answer:
             bot.send_message(message.chat.id, 'Верно!', reply_markup=keyboard_hider)
             bot.send_message(message.chat.id, 'Сыграйте еще раз :) /game', reply_markup=keyboard_hider)
+
         else:
             bot.send_message(message.chat.id, 'Эх... Вы не угадали. Попробуйте еще раз! /game', reply_markup=keyboard_hider)
 
