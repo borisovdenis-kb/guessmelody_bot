@@ -16,7 +16,7 @@ class MySQLer:
         self.cursor.execute(query)
         res = self.cursor.fetchall()
 
-        return res
+        return res[0] if res else None
 
     def single_table_select_all(self, tablename, columnname):
         """ Выборка всех записей из опр таблицы """
@@ -40,6 +40,24 @@ class MySQLer:
         res = self.cursor.fetchall()
 
         return res
+
+    def insert_data(self, tablename, return_id, *data):
+        """ Вставка данных в опр таблицу.
+            Передаем значения в правильном порядке.
+            Если return_id = 1:
+                то ф-я вернет индекс добавленной записи
+        """
+        query = 'INSERT INTO %s VALUES(%s)' % (tablename, str(data)[1:-1])
+
+        self.cursor.execute(query)
+        self.connection.commit()
+
+        if return_id == 1:
+            query = 'SELECT LAST_INSERT_ID();'
+            self.cursor.execute(query)
+            res = self.cursor.fetchall()
+
+            return res[0][0]
 
     def rows_count(self, tablename):
         """ Количество записей в опр таблице """
@@ -79,5 +97,7 @@ if __name__ == '__main__':
     print(X.join_select_all())
     print(X.rows_count('files'))
     print(X.rows_count('songs'))
-    print(X.get_user_score('98f8d809f8s0df'))
     print(X.select_one_rec('songs', 'WHERE song_id = 13'))
+    print(X.insert_data('users', 1, 0, '98656771'))
+    print(X.select_one_rec('users', 'WHERE chat_id = 98656771'))
+    print(X.get_user_score('98656771'))

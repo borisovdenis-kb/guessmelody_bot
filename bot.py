@@ -43,7 +43,7 @@ def game(message):
 
 
 # для добавления новых песен
-@bot.message_handler(commands=['test'])
+@bot.message_handler(commands=['addnewsongs'])
 def find_file_ids(message):
     db = MySQLer(config.db_config)
     rows = db.single_table_select_all('songs', 'song_name')
@@ -60,17 +60,30 @@ def find_file_ids(message):
 
 @bot.message_handler(func=lambda message: True, content_types=['text'])
 def check_answer(message):
+    db = MySQLer(config.db_config)
+    user_exists = db.select_one_rec('users', 'WHERE chat_id = %s' % message.chat.id)
+
+    # если в базу текущий польльзователь еще не внесен
+    if not user_exists:
+        db.insert_data('users', 1, 0, message.chat.id)
+    else:
+        user_id = user_exists[0]
+
     answer = utils.get_answer_for_user(message.chat.id)
 
-    if answer: # если игрок в игре
+    # если игрок в игре
+    if answer:
         keyboard_hider = telebot.types.ReplyKeyboardRemove()
-
+        song_id = db.select_one_rec('songs', 'WHERE song_name = "%s"' % answer)[0]
         if message.text == answer:
+            db.insert_data('played_tracks', 0, song_id, user_id, 1)
             bot.send_message(message.chat.id, 'Верно!', reply_markup=keyboard_hider)
             bot.send_message(message.chat.id, 'Сыграйте еще раз :) /game', reply_markup=keyboard_hider)
-
         else:
-            bot.send_message(message.chat.id, 'Эх... Вы не угадали. Попробуйте еще раз! /game', reply_markup=keyboard_hider)
+            db.insert_data('played_tracks', 0, song_id, user_id, 0)
+            bot.send_message(message.chat.id,
+                             'Эх... Вы не угадали. Попробуйте еще раз! /game',
+                             reply_markup=keyboard_hider)
 
         utils.finish_user_game(message.chat.id)
     else:
