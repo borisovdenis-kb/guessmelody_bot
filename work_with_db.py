@@ -59,6 +59,15 @@ class MySQLer:
 
             return res[0][0]
 
+    def update_played_tracks(self, user_id, song_id, new_value):
+        query = 'UPDATE played_tracks ' \
+                'SET is_guessed = %s ' \
+                'WHERE user_id = %s AND song_id = %s;' \
+                % (new_value, user_id, song_id)
+
+        self.cursor.execute(query)
+        self.connection.commit()
+
     def rows_count(self, tablename):
         """ Количество записей в опр таблице """
         query = 'SELECT * FROM %s' % tablename
@@ -73,18 +82,27 @@ class MySQLer:
             и общее количество прослушаных песен
             для конкретного пользователя.
         """
-        query = 'SELECT u.chat_id, ' \
-                '(SELECT COUNT(*) FROM played_tracks AS pt ' \
-                'WHERE pt.is_guessed = 1 AND pt.user_id = u.user_id), ' \
-                'COUNT(*) ' \
-                'FROM played_tracks AS pt ' \
-                'INNER JOIN users AS u ' \
-                'ON u.chat_id = "%s";' % chat_id
 
-        self.cursor.execute(query)
-        res = self.cursor.fetchall()
+        # запрос возвращает все прослушанные и
+        # ОТГАДАННЫЕ пользователем треки
+        query1 = 'SELECT COUNT(pt.song_id) ' \
+                 'FROM played_tracks AS pt ' \
+                 'WHERE pt.user_id = (SELECT user_id FROM users ' \
+                 'WHERE chat_id = "%s") ' \
+                 'AND pt.is_guessed = 1;' % chat_id
 
-        return res
+        # запрос возвращает все прослушанные
+        # пользователем треки
+        query2 = 'SELECT COUNT(*) FROM played_tracks AS pt '\
+                 'WHERE pt.user_id = (SELECT user_id FROM users WHERE chat_id = "322530729");'
+
+        self.cursor.execute(query1)
+        guessed = self.cursor.fetchall()
+
+        self.cursor.execute(query2)
+        played = self.cursor.fetchall()
+
+        return (guessed[0][0], played[0][0])
 
     def close_connection(self):
         self.connection.close()
@@ -92,12 +110,24 @@ class MySQLer:
 
 if __name__ == '__main__':
     X = MySQLer(config.db_config)
-    print(X.single_table_select_all('files', 'file_id'))
-    print(X.single_table_select_all('songs', 'song_name'))
-    print(X.join_select_all())
-    print(X.rows_count('files'))
-    print(X.rows_count('songs'))
-    print(X.select_one_rec('songs', 'WHERE song_id = 13'))
-    print(X.insert_data('users', 1, 0, '98656771'))
-    print(X.select_one_rec('users', 'WHERE chat_id = 98656771'))
-    print(X.get_user_score('98656771'))
+    print('single_table_select_all |',
+          X.single_table_select_all('files', 'file_id'))
+
+    print('join_select_all |',
+          X.join_select_all())
+
+    print('rows_count |',
+          X.rows_count('files'))
+
+    print('select_one_rec |',
+          X.select_one_rec('songs', 'WHERE song_id = 13'))
+
+    print('get_user_score |',
+          X.get_user_score('322530729'))
+
+    print(X.select_one_rec('played_tracks',
+                           'WHERE song_id = %s AND user_id = %s' \
+                           % (43, 35)))
+
+    # print('insert_data |',
+    #       X.insert_data('users', 1, 0, '98656771'))

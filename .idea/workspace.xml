@@ -18,8 +18,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tst_bot$bot.coverage" NAME="bot Coverage Results" MODIFIED="1485733526402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tst_bot$work_with_db.coverage" NAME="work_with_db Coverage Results" MODIFIED="1485732844551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tst_bot$bot.coverage" NAME="bot Coverage Results" MODIFIED="1485799887224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tst_bot$work_with_db.coverage" NAME="work_with_db Coverage Results" MODIFIED="1485793770692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -40,8 +40,8 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="50">
+              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -50,8 +50,8 @@
       <file leaf-file-name="bot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+            <state relative-caret-position="427">
+              <caret line="55" column="69" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -62,7 +62,7 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="225">
               <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -74,30 +74,32 @@
       <file leaf-file-name="work_with_db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work_with_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="43" column="46" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="46" />
+            <state relative-caret-position="-800">
+              <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1485732855017" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
-                <marker date="1485732855017" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
-                <marker date="1485732855017" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
-                <marker date="1485732855017" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
-                <marker date="1485732855017" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
-                <marker date="1485732855017" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
-                <marker date="1485732855017" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
-                <marker date="1485732855017" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
-                <marker date="1485732855017" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
-                <marker date="1485732855017" expanded="true" signature="1899:1913" placeholder="SELECT COUNT... missing_value" />
-                <marker date="1485732855017" expanded="true" signature="1899:1915" placeholder="SELECT COUNT... " />
-                <marker date="1485732855017" expanded="true" signature="2235:2315" placeholder="SELECT u.use... " />
-                <marker date="1485732855017" expanded="true" signature="2235:2387" placeholder="SELECT u.use... " />
-                <marker date="1485732855017" expanded="true" signature="2235:2388" placeholder="SELECT u.use... " />
-                <marker date="1485732855017" expanded="true" signature="2235:2389" placeholder="SELECT u.use... " />
-                <marker date="1485732855017" expanded="true" signature="2235:2419" placeholder="SELECT u.use... " />
-                <marker date="1485732855017" expanded="true" signature="2235:2465" placeholder="SELECT u.use... played_tracks" />
-                <marker date="1485732855017" expanded="true" signature="2235:2508" placeholder="SELECT u.use... played_tracks" />
-                <marker date="1485732855017" expanded="true" signature="2235:2544" placeholder="SELECT u.use... played_tracks" />
-                <marker date="1485732855017" expanded="true" signature="2235:2549" placeholder="SELECT u.use... played_tracks" />
+                <marker date="1485793744141" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
+                <marker date="1485793744141" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
+                <marker date="1485793744141" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
+                <marker date="1485793744141" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
+                <marker date="1485793744141" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
+                <marker date="1485793744141" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
+                <marker date="1485793744141" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
+                <marker date="1485793744141" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
+                <marker date="1485793744141" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
+                <marker date="1485793744141" expanded="true" signature="1878:1994" placeholder="UPDATE playe... " />
+                <marker date="1485793744141" expanded="true" signature="2222:2236" placeholder="SELECT COUNT... missing_value" />
+                <marker date="1485793744141" expanded="true" signature="2222:2238" placeholder="SELECT COUNT... " />
+                <marker date="1485793744141" expanded="true" signature="2648:2655" placeholder="SELECT u.cha... users" />
+                <marker date="1485793744141" expanded="true" signature="2648:2787" placeholder="SELECT COUNT... played_tracks" />
+                <marker date="1485793744141" expanded="true" signature="2648:2825" placeholder="SELECT COUNT... played_tracks" />
+                <marker date="1485793744141" expanded="true" signature="2648:2831" placeholder="SELECT COUNT... played_tracks" />
+                <marker date="1485793744141" expanded="true" signature="2648:2875" placeholder="SELECT COUNT... played_tracks" />
+                <marker date="1485793744141" expanded="true" signature="2982:3022" placeholder="SELECT COUNT... played_tracks" />
+                <marker date="1485793744141" expanded="true" signature="2982:3105" placeholder="SELECT COUNT... played_tracks" />
+                <marker date="1485793744141" expanded="true" signature="2982:3116" placeholder="SELECT COUNT... played_tracks" />
+                <marker date="1485793744141" expanded="true" signature="2982:3118" placeholder="SELECT COUNT... played_tracks" />
+                <marker date="1485793744141" expanded="true" signature="2982:3119" placeholder="SELECT COUNT... played_tracks" />
               </folding>
             </state>
           </provider>
@@ -140,6 +142,22 @@
     <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -165,7 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,7 +204,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,6 +212,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -477,17 +496,17 @@
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16577253" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17006437" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5756208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6489842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37471783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65575624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -524,6 +543,126 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work_with_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1485793744141" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
+            <marker date="1485793744141" expanded="true" signature="1878:1994" placeholder="UPDATE playe... " />
+            <marker date="1485793744141" expanded="true" signature="2222:2236" placeholder="SELECT COUNT... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="2222:2238" placeholder="SELECT COUNT... " />
+            <marker date="1485793744141" expanded="true" signature="2648:2655" placeholder="SELECT u.cha... users" />
+            <marker date="1485793744141" expanded="true" signature="2648:2787" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2825" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2831" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2875" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3022" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3105" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3116" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3118" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3119" placeholder="SELECT COUNT... played_tracks" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work_with_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1485793744141" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
+            <marker date="1485793744141" expanded="true" signature="1878:1994" placeholder="UPDATE playe... " />
+            <marker date="1485793744141" expanded="true" signature="2222:2236" placeholder="SELECT COUNT... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="2222:2238" placeholder="SELECT COUNT... " />
+            <marker date="1485793744141" expanded="true" signature="2648:2655" placeholder="SELECT u.cha... users" />
+            <marker date="1485793744141" expanded="true" signature="2648:2787" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2825" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2831" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2875" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3022" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3105" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3116" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3118" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3119" placeholder="SELECT COUNT... played_tracks" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
@@ -556,26 +695,28 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1485732855017" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
-            <marker date="1485732855017" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
-            <marker date="1485732855017" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
-            <marker date="1485732855017" expanded="true" signature="1899:1913" placeholder="SELECT COUNT... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="1899:1915" placeholder="SELECT COUNT... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2315" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2387" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2388" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2389" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2419" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2465" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2508" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2544" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2549" placeholder="SELECT u.use... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
+            <marker date="1485793744141" expanded="true" signature="1878:1994" placeholder="UPDATE playe... " />
+            <marker date="1485793744141" expanded="true" signature="2222:2236" placeholder="SELECT COUNT... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="2222:2238" placeholder="SELECT COUNT... " />
+            <marker date="1485793744141" expanded="true" signature="2648:2655" placeholder="SELECT u.cha... users" />
+            <marker date="1485793744141" expanded="true" signature="2648:2787" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2825" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2831" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2875" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3022" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3105" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3116" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3118" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3119" placeholder="SELECT COUNT... played_tracks" />
           </folding>
         </state>
       </provider>
@@ -614,26 +755,28 @@
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1485732855017" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
-            <marker date="1485732855017" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
-            <marker date="1485732855017" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
-            <marker date="1485732855017" expanded="true" signature="1899:1913" placeholder="SELECT COUNT... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="1899:1915" placeholder="SELECT COUNT... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2315" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2387" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2388" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2389" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2419" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2465" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2508" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2544" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2549" placeholder="SELECT u.use... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
+            <marker date="1485793744141" expanded="true" signature="1878:1994" placeholder="UPDATE playe... " />
+            <marker date="1485793744141" expanded="true" signature="2222:2236" placeholder="SELECT COUNT... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="2222:2238" placeholder="SELECT COUNT... " />
+            <marker date="1485793744141" expanded="true" signature="2648:2655" placeholder="SELECT u.cha... users" />
+            <marker date="1485793744141" expanded="true" signature="2648:2787" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2825" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2831" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2875" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3022" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3105" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3116" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3118" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3119" placeholder="SELECT COUNT... played_tracks" />
           </folding>
         </state>
       </provider>
@@ -672,26 +815,28 @@
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1485732855017" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
-            <marker date="1485732855017" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
-            <marker date="1485732855017" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
-            <marker date="1485732855017" expanded="true" signature="1899:1913" placeholder="SELECT COUNT... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="1899:1915" placeholder="SELECT COUNT... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2315" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2387" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2388" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2389" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2419" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2465" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2508" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2544" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2549" placeholder="SELECT u.use... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
+            <marker date="1485793744141" expanded="true" signature="1878:1994" placeholder="UPDATE playe... " />
+            <marker date="1485793744141" expanded="true" signature="2222:2236" placeholder="SELECT COUNT... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="2222:2238" placeholder="SELECT COUNT... " />
+            <marker date="1485793744141" expanded="true" signature="2648:2655" placeholder="SELECT u.cha... users" />
+            <marker date="1485793744141" expanded="true" signature="2648:2787" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2825" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2831" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2875" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3022" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3105" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3116" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3118" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3119" placeholder="SELECT COUNT... played_tracks" />
           </folding>
         </state>
       </provider>
@@ -730,26 +875,28 @@
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1485732855017" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
-            <marker date="1485732855017" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
-            <marker date="1485732855017" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
-            <marker date="1485732855017" expanded="true" signature="1899:1913" placeholder="SELECT COUNT... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="1899:1915" placeholder="SELECT COUNT... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2315" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2387" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2388" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2389" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2419" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2465" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2508" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2544" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2549" placeholder="SELECT u.use... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
+            <marker date="1485793744141" expanded="true" signature="1878:1994" placeholder="UPDATE playe... " />
+            <marker date="1485793744141" expanded="true" signature="2222:2236" placeholder="SELECT COUNT... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="2222:2238" placeholder="SELECT COUNT... " />
+            <marker date="1485793744141" expanded="true" signature="2648:2655" placeholder="SELECT u.cha... users" />
+            <marker date="1485793744141" expanded="true" signature="2648:2787" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2825" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2831" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2875" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3022" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3105" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3116" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3118" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3119" placeholder="SELECT COUNT... played_tracks" />
           </folding>
         </state>
       </provider>
@@ -808,20 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/six.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="685" column="0" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python34/Lib/dbm/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -836,63 +969,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/telebot/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18954">
-          <caret line="713" column="8" selection-start-line="713" selection-start-column="8" selection-end-line="713" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/telebot/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work_with_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1485732855017" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
-            <marker date="1485732855017" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
-            <marker date="1485732855017" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
-            <marker date="1485732855017" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
-            <marker date="1485732855017" expanded="true" signature="1899:1913" placeholder="SELECT COUNT... missing_value" />
-            <marker date="1485732855017" expanded="true" signature="1899:1915" placeholder="SELECT COUNT... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2315" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2387" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2388" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2389" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2419" placeholder="SELECT u.use... " />
-            <marker date="1485732855017" expanded="true" signature="2235:2465" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2508" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2544" placeholder="SELECT u.use... played_tracks" />
-            <marker date="1485732855017" expanded="true" signature="2235:2549" placeholder="SELECT u.use... played_tracks" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="225">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -900,15 +979,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python34/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="317" column="0" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="358" column="0" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="937" column="0" selection-start-line="937" selection-start-column="0" selection-end-line="937" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="685" column="0" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/telebot/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work_with_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1485793744141" expanded="true" signature="377:394" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="377:396" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:683" placeholder="SELECT * FRO... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="668:685" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="982:1027" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1069" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1109" placeholder="SELECT s.son... songs" />
+            <marker date="1485793744141" expanded="true" signature="982:1110" placeholder="SELECT * FRO... " />
+            <marker date="1485793744141" expanded="true" signature="1483:1508" placeholder="INSERT INTO " />
+            <marker date="1485793744141" expanded="true" signature="1878:1994" placeholder="UPDATE playe... " />
+            <marker date="1485793744141" expanded="true" signature="2222:2236" placeholder="SELECT COUNT... missing_value" />
+            <marker date="1485793744141" expanded="true" signature="2222:2238" placeholder="SELECT COUNT... " />
+            <marker date="1485793744141" expanded="true" signature="2648:2655" placeholder="SELECT u.cha... users" />
+            <marker date="1485793744141" expanded="true" signature="2648:2787" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2825" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2831" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2648:2875" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3022" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3105" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3116" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3118" placeholder="SELECT COUNT... played_tracks" />
+            <marker date="1485793744141" expanded="true" signature="2982:3119" placeholder="SELECT COUNT... played_tracks" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/telebot/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="713" column="8" selection-start-line="713" selection-start-column="8" selection-end-line="713" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        <state relative-caret-position="427">
+          <caret line="55" column="69" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
